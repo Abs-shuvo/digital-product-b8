@@ -1,0 +1,111 @@
+*{
+    margin:0px ;
+    padding: 0px ;
+}
+.menu-container{
+        background-color: black;
+        padding: 10px;
+        color: white;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+}
+.menus{
+    display: flex;
+
+}
+.logophoto{
+          width: 120px;
+}
+.koto{
+    margin-left: 5px;
+    padding-right: 5px;
+    font-size: 15px;
+    cursor: grabbing;
+}
+.koto:hover{
+    color: blue;
+    background-color: red;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    border: 2px solid gray;
+    background-image: url("../image/along\ with\ varsity.png"),
+    linear-gradient(90deg,#3c2323,#000);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-blend-mode:overlay;
+    color: chartreuse;
+
+    
+}
+.banner-img{
+    width: 300px;
+    
+}
+.title{
+    font-size: 55px;
+    font-weight: bolds;
+}
+.description{
+    font-size:18px ;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: red;
+    color: blue;
+    border: none;
+    border-radius: 5px;
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    border: 2px solid rgb(97, 96, 96);
+    background-image: url("../image/front\ kona.png"),
+    linear-gradient(90deg,#3c2323,#000);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-blend-mode:overlay;
+    color:aqua;   
+    padding: 10px; 
+}
+.about-title{
+    text-align: center;
+    padding-top: 20px;
+}
+.box{
+    width:230px;
+    height: 280px;
+    box-shadow: 4px 4px 15px green;
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+.icon{
+    width: 100px;
+}
+.box-btn{
+background-color: green;
+margin-top:10px ;
+}
+.box-title{
+padding: 10px;
+}
+.box-description{
+    padding: 5px;
+}
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: burlywood;
+}

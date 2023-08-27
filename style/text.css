@@ -6,3 +6,25 @@
     color: blueviolet;
     cursor:grabbing;
 }
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+
+}
+.box{
+    padding: 20px;
+    background-color: red;
+    width: 120px;
+}
+.box2{
+    padding: 20px;
+    background-color: brown;
+    width: 120px;
+}
+.box3{
+    padding: 20px;
+    background-color: orangered;
+    width: 120px;
+}
